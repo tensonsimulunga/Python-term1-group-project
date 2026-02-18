@@ -21,3 +21,9 @@ else:
     grade = "F"
 
 print("Grade:", grade)
+if average >= 50:
+    status = "PASS"
+else:
+    status = "FAIL"
+
+print("Status:", status)
